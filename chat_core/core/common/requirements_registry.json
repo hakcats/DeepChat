@@ -1,0 +1,191 @@
+{
+  "answer_types_extractor": [
+    "{DEEPCHAT_PATH}/requirements/en_core_web_sm.txt",
+    "{DEEPCHAT_PATH}/requirements/ru_core_news_sm.txt"
+  ],
+  "entity_linker": [
+    "{DEEPCHAT_PATH}/requirements/hdt.txt",
+    "{DEEPCHAT_PATH}/requirements/rapidfuzz.txt",
+    "{DEEPCHAT_PATH}/requirements/en_core_web_sm.txt",
+    "{DEEPCHAT_PATH}/requirements/ru_core_news_sm.txt"
+  ],
+  "fasttext": [
+    "{DEEPCHAT_PATH}/requirements/fasttext.txt"
+  ],
+  "huggingface_dataset_iterator": [
+    "{DEEPCHAT_PATH}/requirements/datasets.txt"
+  ],
+  "huggingface_dataset_reader": [
+    "{DEEPCHAT_PATH}/requirements/datasets.txt"
+  ],
+  "kenlm_elector": [
+    "{DEEPCHAT_PATH}/requirements/kenlm.txt"
+  ],
+  "ner_chunk_model": [
+    "{DEEPCHAT_PATH}/requirements/pytorch.txt",
+    "{DEEPCHAT_PATH}/requirements/transformers.txt"
+  ],
+  "ner_chunker": [
+    "{DEEPCHAT_PATH}/requirements/pytorch.txt",
+    "{DEEPCHAT_PATH}/requirements/transformers.txt"
+  ],
+  "nltk_moses_tokenizer": [
+    "{DEEPCHAT_PATH}/requirements/sacremoses.txt"
+  ],
+  "path_ranking_preprocessor": [
+    "{DEEPCHAT_PATH}/requirements/pytorch.txt",
+    "{DEEPCHAT_PATH}/requirements/transformers.txt"
+  ],
+  "query_generator": [
+    "{DEEPCHAT_PATH}/requirements/en_core_web_sm.txt",
+    "{DEEPCHAT_PATH}/requirements/hdt.txt",
+    "{DEEPCHAT_PATH}/requirements/rapidfuzz.txt",
+    "{DEEPCHAT_PATH}/requirements/whapi.txt"
+  ],
+  "re_classifier": [
+    "{DEEPCHAT_PATH}/requirements/opt_einsum.txt",
+    "{DEEPCHAT_PATH}/requirements/pytorch.txt",
+    "{DEEPCHAT_PATH}/requirements/transformers.txt"
+  ],
+  "re_postprocessor": [
+    "{DEEPCHAT_PATH}/requirements/pytorch.txt",
+    "{DEEPCHAT_PATH}/requirements/transformers.txt"
+  ],
+  "re_preprocessor": [
+    "{DEEPCHAT_PATH}/requirements/pytorch.txt",
+    "{DEEPCHAT_PATH}/requirements/transformers.txt"
+  ],
+  "rel_ranking_infer": [
+    "{DEEPCHAT_PATH}/requirements/en_core_web_sm.txt",
+    "{DEEPCHAT_PATH}/requirements/hdt.txt"
+  ],
+  "rel_ranking_preprocessor": [
+    "{DEEPCHAT_PATH}/requirements/pytorch.txt",
+    "{DEEPCHAT_PATH}/requirements/transformers.txt"
+  ],
+  "ru_adj_to_noun": [
+    "{DEEPCHAT_PATH}/requirements/ru_core_news_sm.txt"
+  ],
+  "russian_words_vocab": [
+    "{DEEPCHAT_PATH}/requirements/lxml.txt"
+  ],
+  "slovnet_syntax_parser": [
+    "{DEEPCHAT_PATH}/requirements/slovnet.txt",
+    "{DEEPCHAT_PATH}/requirements/razdel.txt",
+    "{DEEPCHAT_PATH}/requirements/ru_core_news_sm.txt"
+  ],
+  "spelling_error_model": [
+    "{DEEPCHAT_PATH}/requirements/lxml.txt"
+  ],
+  "spelling_levenshtein": [
+    "{DEEPCHAT_PATH}/requirements/sortedcontainers.txt"
+  ],
+  "static_dictionary": [
+    "{DEEPCHAT_PATH}/requirements/lxml.txt"
+  ],
+  "stream_spacy_tokenizer": [
+    "{DEEPCHAT_PATH}/requirements/en_core_web_sm.txt",
+    "{DEEPCHAT_PATH}/requirements/ru_core_news_sm.txt"
+  ],
+  "torch_bert_ranker": [
+    "{DEEPCHAT_PATH}/requirements/pytorch.txt",
+    "{DEEPCHAT_PATH}/requirements/transformers.txt"
+  ],
+  "torch_bert_ranker_preprocessor": [
+    "{DEEPCHAT_PATH}/requirements/pytorch.txt",
+    "{DEEPCHAT_PATH}/requirements/transformers.txt"
+  ],
+  "torch_record_postprocessor": [
+    "{DEEPCHAT_PATH}/requirements/pytorch.txt",
+    "{DEEPCHAT_PATH}/requirements/transformers.txt"
+  ],
+  "torch_squad_transformers_preprocessor": [
+    "{DEEPCHAT_PATH}/requirements/pytorch.txt",
+    "{DEEPCHAT_PATH}/requirements/transformers.txt"
+  ],
+  "torch_text_classification_model": [
+    "{DEEPCHAT_PATH}/requirements/pytorch.txt"
+  ],
+  "torch_transformers_classifier": [
+    "{DEEPCHAT_PATH}/requirements/pytorch.txt",
+    "{DEEPCHAT_PATH}/requirements/transformers.txt"
+  ],
+  "multitask_transformer": [
+    "{DEEPCHAT_PATH}/requirements/pytorch.txt",
+    "{DEEPCHAT_PATH}/requirements/transformers.txt"
+  ],
+  "torch_transformers_el_ranker": [
+    "{DEEPCHAT_PATH}/requirements/pytorch.txt",
+    "{DEEPCHAT_PATH}/requirements/transformers.txt"
+  ],
+  "torch_transformers_entity_ranker_infer": [
+    "{DEEPCHAT_PATH}/requirements/pytorch.txt",
+    "{DEEPCHAT_PATH}/requirements/transformers.txt"
+  ],
+  "torch_transformers_entity_ranker_preprocessor": [
+    "{DEEPCHAT_PATH}/requirements/pytorch.txt",
+    "{DEEPCHAT_PATH}/requirements/transformers.txt"
+  ],
+  "torch_transformers_multiplechoice": [
+    "{DEEPCHAT_PATH}/requirements/pytorch.txt",
+    "{DEEPCHAT_PATH}/requirements/transformers.txt"
+  ],
+  "torch_transformers_multiplechoice_preprocessor": [
+    "{DEEPCHAT_PATH}/requirements/pytorch.txt",
+    "{DEEPCHAT_PATH}/requirements/transformers.txt"
+  ],
+  "torch_transformers_ner_preprocessor": [
+    "{DEEPCHAT_PATH}/requirements/pytorch.txt",
+    "{DEEPCHAT_PATH}/requirements/transformers.txt"
+  ],
+  "torch_transformers_nll_ranker": [
+    "{DEEPCHAT_PATH}/requirements/pytorch.txt",
+    "{DEEPCHAT_PATH}/requirements/transformers.txt"
+  ],
+  "torch_transformers_preprocessor": [
+    "{DEEPCHAT_PATH}/requirements/pytorch.txt",
+    "{DEEPCHAT_PATH}/requirements/transformers.txt"
+  ],
+  "torch_transformers_sequence_tagger": [
+    "{DEEPCHAT_PATH}/requirements/pytorch.txt",
+    "{DEEPCHAT_PATH}/requirements/torchcrf.txt",
+    "{DEEPCHAT_PATH}/requirements/transformers.txt"
+  ],
+  "multitask_pipeline_preprocessor": [
+    "{DEEPCHAT_PATH}/requirements/pytorch.txt",
+    "{DEEPCHAT_PATH}/requirements/torchcrf.txt",
+    "{DEEPCHAT_PATH}/requirements/transformers.txt"
+  ],  
+  "torch_transformers_squad": [
+    "{DEEPCHAT_PATH}/requirements/pytorch.txt",
+    "{DEEPCHAT_PATH}/requirements/transformers.txt"
+  ],
+  "transformers_bert_embedder": [
+    "{DEEPCHAT_PATH}/requirements/pytorch.txt",
+    "{DEEPCHAT_PATH}/requirements/transformers.txt"
+  ],
+  "transformers_bert_preprocessor": [
+    "{DEEPCHAT_PATH}/requirements/pytorch.txt",
+    "{DEEPCHAT_PATH}/requirements/transformers.txt"
+  ],
+  "tree_to_sparql": [
+    "{DEEPCHAT_PATH}/requirements/udapi.txt",
+    "{DEEPCHAT_PATH}/requirements/razdel.txt",
+    "{DEEPCHAT_PATH}/requirements/ru_core_news_sm.txt"
+  ],
+  "typos_custom_reader": [
+    "{DEEPCHAT_PATH}/requirements/lxml.txt"
+  ],
+  "typos_kartaslov_reader": [
+    "{DEEPCHAT_PATH}/requirements/lxml.txt"
+  ],
+  "typos_wikipedia_reader": [
+    "{DEEPCHAT_PATH}/requirements/lxml.txt"
+  ],
+  "wiki_parser": [
+    "{DEEPCHAT_PATH}/requirements/hdt.txt"
+  ],
+  "wikitionary_100K_vocab": [
+    "{DEEPCHAT_PATH}/requirements/lxml.txt"
+  ]
+}

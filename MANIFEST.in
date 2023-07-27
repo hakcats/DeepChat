@@ -1,0 +1,6 @@
+include README.MD
+include LICENSE
+include requirements.txt
+include deepchat/requirements/*.txt
+recursive-include deepchat *.json
+recursive-include deepchat *.md
